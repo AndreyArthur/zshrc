@@ -1,4 +1,4 @@
 bindkey '^H' backward-char
-bindkey '^J' down-line-or-history
-bindkey '^K' up-line-or-history
+bindkey '^J' history-substring-search-down
+bindkey '^K' history-substring-search-up
 bindkey '^L' forward-char
